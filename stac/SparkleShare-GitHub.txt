@@ -1,0 +1,62 @@
+ Download and install Git
+  git config --global user.name "Your Name"
+  git config --global user.email sisco.garcia@ubuntu.cat
+        
+
+Next steps:
+
+  mkdir MigracioPL
+  cd MigracioPL
+  git init
+  touch README
+  git add README
+  git commit -m 'first commit'
+  git remote add origin git@github.com:SiscoGarcia/MigracioPL.git
+  git push origin master
+      
+
+Existing Git Repo?
+
+  cd existing_git_repo
+  git remote add origin git@github.com:SiscoGarcia/MigracioPL.git
+  git push origin master
+      
+Després:
+
+https://github.com/SiscoGarcia/MigracioPL
+
+
+
+Des del costat de l'SparkleShare:
+
+4. Using SparkleShare with Github
+4.1. How do I set up SparkleShare with Github?
+
+First off, get an account on Github if you don't already have one.
+
+From your Dashboard, click New Repository. Fill in the required fields. We will refer to the name of this repository as the Folder Name from here on.
+
+Now it gets a bit tricky. We will have to upload a so called SSH Public Key to Github to authenticate. SparkleShare has already created one for you if you have filled in First Run Screen. You can find it in your Home Folder in the .config/sparkleshare/ subfolders. It looks like sparkleshare.yourname@server.com.key.pub, but ofcourse with your email adress filled in. Copy the contents of this file.
+
+Go to your Account Settings. Click SSH Public Keys. Now click Add a public Key. Paste the contents of the file you just copied into the Key text field and give the key a Title. Hit Add key.
+
+Now we can tell SparkleShare to sync with this folder. Click SparkleShare's Notification icon and select Sync Remote Folder.... Select Github as your server and enter your Github username and the folder name in the Folder Name entry.
+
+Now click Sync to start syncing!
+4.2. How do I add more collaborators on Github?
+
+Your collaborator will have to get an account and add his or her SSH Public Key as described above, but he or she can skip the repository creation. Once that has finished you can easily add the person through the Github web interface.
+
+On Github, go to your Dashboard select the appropriate repository under Your Repositories. Click Admin and then Collaborators. You can search for your collaborator's username by typing inside the text entry. Then hit Add to add the person.
+
+Done! Now every user that is part of the team can sync with the folder.
+5. Sharing files
+5.1. How do I add files?
+
+Just put your files in one of your SparkleShare project folders. You can do this by dragging files over or to save from directly from an application. SparkleShare will notice your changes. No manual syncing work for you anymore!
+5.2. How do I share files with others?
+
+Not only is everything in SparkleShare synced to your server, it will also automatically with all other clients connected to it. Again, no extra work!
+5.3. I made a mistake. How do I revert my changes?
+
+Right click the affected file. There will be a menu entry called Get Earlier Version. From there you can select an earlier version of the file you want to check out. SparkleShare will create a copy of this file in the same folder.
