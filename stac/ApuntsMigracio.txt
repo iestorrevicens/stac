@@ -6,6 +6,9 @@ El 2006-2007 recordo que es van fer sessions d'introducció a la Linkat amb els 
 
 Per qüestions pràctiques vaig decidir d'instal·lar-me'l al meu portàtil, i a diferència del que va passar amb el portàtil del centre, no em va reconèixer part del maquinari. Aquest problema no el vaig poder resoldre ni amb l'ajut del tècnic que ens va muntar l'aula el curs anterior, de manera que vaig estar fent el curset i altres feines sense una compatibilitat total amb el maquinari, la qual cosa com podeu comprendre és «emprenyadora».
 
+
+
+
 Al cap d'un temps sense trobar solució per aquest problema, vaig conèixer l'Ubuntu (crec que era la versió 5.10) i seguint els consells del Josep vaig optar per instal·lar-me'l (la versió 6.10, que feia poc que havia estat publicada), i la meua sorpresa va ser que va reconèixer tot el maquinari sense cap problema. Vaig tenir convivint els 3 sistemes (Windows, Linkat i Ubuntu) durant un temps, fins que mica en mica vaig deixar de fer servir la Linkat i el vaig treure de l'ordinador... després li arribaria el torn de desaparèixer al Windows.
 
 Total que cap a mitjans de l'any 2007 començava a fer servir habitualment l'Ubuntu... i encara també el Windows; amb la qual cosa podia anar fent proves de programes que corrien en totes dues plataformes. Aquesta va ser la clau del nostre projecte de migració, substituir els programes privatius del Windows per altres que també podien córrer a l'Ubuntu. Ço era canviar l'internet explorer pel Mozilla Firefox, el MS Office per l'OpenOffice.org, els diversos reproductors multimèdia pel VLC.
