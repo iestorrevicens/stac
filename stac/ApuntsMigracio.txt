@@ -1,0 +1,21 @@
+﻿Apunts per una migració:
+
+Corria el curs 2005-2006 quan vam començar a contactar amb GNU/Linux, concretament amb les primeres versions de la Linkat. Aquest curs ens van muntar una aula amb terminals «tontos» i un servidor doble balancejat, però no ens hi vam posar gaire.
+
+El 2006-2007 recordo que es van fer sessions d'introducció a la Linkat amb els portàtils que va fer arribar als centres i tot va funcionar a la perfecció, i jo em vaig apuntar a un curset telemàtic, on vaig aprendre a manegar-me amb aquest sistema operatiu de la Generalitat de Catalunya. He de dir que em va semblar força engrescador, i que vaig aprendre força. De fet el treball final ja el vaig fer pensant a fer una migració a Programari Lliure, que ens ha servit de «full de ruta» per quan finalment hem fet el salt.
+
+Per qüestions pràctiques vaig decidir d'instal·lar-me'l al meu portàtil, i a diferència del que va passar amb el portàtil del centre, no em va reconèixer part del maquinari. Aquest problema no el vaig poder resoldre ni amb l'ajut del tècnic que ens va muntar l'aula el curs anterior, de manera que vaig estar fent el curset i altres feines sense una compatibilitat total amb el maquinari, la qual cosa com podeu comprendre és «emprenyadora».
+
+Al cap d'un temps sense trobar solució per aquest problema, vaig conèixer l'Ubuntu (crec que era la versió 5.10) i seguint els consells del Josep vaig optar per instal·lar-me'l (la versió 6.10, que feia poc que havia estat publicada), i la meua sorpresa va ser que va reconèixer tot el maquinari sense cap problema. Vaig tenir convivint els 3 sistemes (Windows, Linkat i Ubuntu) durant un temps, fins que mica en mica vaig deixar de fer servir la Linkat i el vaig treure de l'ordinador... després li arribaria el torn de desaparèixer al Windows.
+
+Total que cap a mitjans de l'any 2007 començava a fer servir habitualment l'Ubuntu... i encara també el Windows; amb la qual cosa podia anar fent proves de programes que corrien en totes dues plataformes. Aquesta va ser la clau del nostre projecte de migració, substituir els programes privatius del Windows per altres que també podien córrer a l'Ubuntu. Ço era canviar l'internet explorer pel Mozilla Firefox, el MS Office per l'OpenOffice.org, els diversos reproductors multimèdia pel VLC.
+
+Per tal de no fer un canvi traumàtic, vam tenir convivint totes dues aplicacions (la propietària i la lliure) durant dos anys, primer només convivint, després fent que fos la lliure l'opció predeterminada; fins que amb la progressiva implantació de l'Ubuntu vam anar eliminant la privativa... i, al cap de més de tres anys, hem eliminat també el MS Windows de la majoria de les màquines.
+
+Hores d'ara no sé si cal fer-ho tan pausadament, perquè hi ha hagut per tots els gustos, de manera que hi ha hagut molts usuaris que no han fet el pas al programari lliure fins que «no els ha quedat més remei», per la qual cosa, si haguéssim fet el canvi de manera més traumàtica ja faria tres anys que tindríem només programari lliure funcionant; la qual cosa, tenint en compte la dimensió del nostre centre, vol dir que el canvi és possible!
+
+Aquest procés de migració al programari lliure ha coincidit amb l'arribada de la versió 10.04 LTS de l'Ubuntu (la Lucid Lynx), la qual cosa ens ha permés tenir un sistema operatiu que ens reconeix tot el maquinari, permet l'addició dels còdecs d'àudio i vídeo necessaris per la nostra tasca docent i permet així que puguem fer la nostra feina amb les millors condicions; a més el fet que sigui una versió LTS (Long Term Support) ens dóna garanties de viabilitat durant 3 anys per les estacions de treball i 5 pels servidors, amb la tranquil·litat que això suposa.
+
+Pel que fa a la validació d'usuaris, després de diversos intents, ens hem decantat per l'eBox, que ens permet dur a terme no només la validació d'usuaris, també la validació de la intraweb, del Moodle, dels serveis web, i fins i tot del servidor de fitxers. A tot això, el nostre maquinari és un conjunt de servidors que permeten tenir perfectament actualitzat el mirall que fem servir per actualitzar els programes, a més d'hostatjar-hi la intraweb, el Moodle, la nostra pàgina web i els fitxers. 
+
+(l'LDAP, també la part )
